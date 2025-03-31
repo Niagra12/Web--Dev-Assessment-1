@@ -1,0 +1,116 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+}
+/* Header Styling */
+header {
+    background-color: #17072b; /* Dark purple for a professional look */
+    color: #ffffff; /* White text for contrast */
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    font-family: Tahoma, sans-serif; /* Unique font for the main title */
+    font-weight: 700; /* Bold weight for emphasis */
+    margin: 0;
+}
+/* Navigation Menu */
+nav ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+}
+nav ul li {
+    display: inline; /* Aligns links horizontally */
+    margin: 0 15px; /* Adds spacing between links */
+}
+nav ul li a {
+    color: #ffffff; /* White links */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+}
+/* Hover Effect for Links */
+a:hover {
+    color: grey; /* Changes color to grey when hovered */
+}
+/* Main Content Layout */
+main {
+    display: flex; /* Aligns welcome section and sidebar in a row */
+    justify-content: space-between; /* Spaces them apart */
+    padding: 20px;
+}
+/* Welcome Section */
+.welcome {
+    width: 60%; /* Takes up 60% of the main content width */
+    padding: 20px;
+}
+
+/* Welcome Section Headings */
+.welcome h1 {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline; /* Underline for emphasis */
+    text-decoration-color: white;
+}
+.welcome h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline; /* Underline for emphasis */
+}
+/* Welcome Paragraph Styling */
+.welcome p {
+    font-size: 16px;
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Welcome Image Styling */
+.welcome img {
+    width: 100%;
+    max-width: 600px; /* Limits the size for better layout */
+    height: auto;
+}
+/* Line Up Sidebar */
+.line-up {
+    width: 35%; /* Takes up 35% of the main content width */
+    background-color: #172d67; /* Dark blue background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 5px; /* Slightly rounded edges */
+}
+/* Line Up Headings */
+.line-up h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline; /* Underline for emphasis */
+}
+/* Line Up List Styling */
+.line-up ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+}
+.line-up ul li {
+    font-size: 25px;
+    margin: 20px 0; /* Adds spacing between items */
+}
+/* Line Up Images Section */
+.line-up .images {
+    display: flex;
+    justify-content: space-between; /* Spreads images evenly */
+    margin-top: 150px;
+}
+/* Line Up Images */
+.line-up .images img {
+    width: 48%;
+    height: auto;
+    border-radius: 5px; /* Rounded edges */
+}
+/* Footer Styling */
+footer {
+    background-color: #8c15e9; /* Purple footer background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}

@@ -1,0 +1,24 @@
+/* Style for the video container within the .video-container class */
+.video-container video{
+  /* Set the width of the video to 20% of the container */
+  width: 20%;
+  /* Position the video relative to its normal position for any future positioning adjustments */
+  position: relative;
+  /* Add margin to space the video from other elements and center it */
+  margin: 20px auto;
+  /* Use flexbox to align the video inside the container */
+  display: flex;
+  /* Center the video content horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+}
+/* Additional video styling (height auto ensures it maintains aspect ratio) */
+.video-container video{
+  /* Set height to auto to maintain the aspect ratio based on the width */
+  height: auto;
+}
+/* Style for the poster image of the video */
+.poster {
+  /* Use object-fit: cover to ensure the poster image covers the area while maintaining its aspect ratio */
+  object-fit: cover;
+}

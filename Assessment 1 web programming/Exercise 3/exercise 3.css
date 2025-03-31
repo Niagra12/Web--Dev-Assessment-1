@@ -1,0 +1,41 @@
+/* General Styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the whole page */
+    text-align: center; /* Centers the text */
+    background-color: #f4f4f4; /* Light gray background color */
+    margin: 50px auto; /* Centers the content with margin from top */
+}
+/* Styling for the main heading */
+h1 {
+    font-size: 28px; /* Sets the font size of the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+/* Container for each image */
+.image-container {
+    display: inline-block; /* Makes the container inline so that images sit next to each other */
+    margin: 20px; /* Adds space between the containers */
+    padding: 15px; /* Adds padding inside the container */
+    border: 3px solid darkgreen; /* Black border around the image container */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+/* Styling for the images inside the containers */
+.image-container img {
+    display: block; /* Ensures the image is block-level */
+    max-width: 100%; /* Ensures image resizes with container */
+    height: auto; /* Maintains the image's aspect ratio */
+    filter: grayscale(30%) brightness(90%) contrast(110%); /* Applies initial grayscale, brightness, and contrast */
+    transition: transform 0.3s, filter 0.3s; /* Smooth transition effects when image is hovered */
+}
+/* Hover effect for images inside the containers */
+.image-container img:hover {
+    transform: scale(1.05); /* Slight zoom-in effect */
+    filter: grayscale(0%); /* Removes grayscale on hover */
+}
+/* Styling for the paragraph text */
+p {
+    font-size: 14px; /* Sets the font size for the image captions */
+    margin-top: 10px; /* Adds space above the paragraph */
+    color: #555; /* Dark gray color for the text */
+}

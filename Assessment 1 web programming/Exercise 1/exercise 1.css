@@ -1,0 +1,99 @@
+/* General Page Styling */
+body {
+    background-color: sandybrown;  /* Light, neutral background for a clean look */
+    color: #333;  /* Dark gray text for readability */
+    font-family: 'Georgia', serif;  /* A more formal font */
+    margin: 0;
+    padding: 20px;
+    text-align: center;  /* Centers the content */
+}
+/* Recipe Title Styling */
+#Gian {
+    color: #5a2d0c;  /* Elegant deep brown */
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px; /* Adds a refined touch */
+}
+#labrin {
+    width: 300px;
+    height: 100px;
+}
+/* Section Headings (Ingredients, Directions, etc.) */
+h2 {
+    color: #4b2e1a; /* Rich brown for professional contrast */
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 3px solid #4b2e1a;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+/* Description Paragraph */
+p {
+    color: #555;  /* Softer dark gray for elegance */
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 10px auto;
+    max-width: 800px;
+    text-align: justify; /* Improves readability */
+}
+/* Recipe Images */
+img {
+    border-radius: 8px;  /* Softer, professional rounded edges */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); /* Subtle depth */
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+/* Ingredients & Directions Styling */
+ul, ol {
+    text-align: left;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Clean, white semi-transparent box */
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+/* Ingredient List */
+ul {
+    list-style-type: square; /* Classic square bullets */
+    padding-left: 25px;
+}
+/* Numbered Steps */
+ol {
+    list-style-type: decimal; /* Professional numbering */
+    padding-left: 25px;
+}
+/*  List Item Styling */
+ul li, ol li {
+    font-size: 18px;
+    padding: 8px 0;
+    line-height: 1.6;
+}
+/* Links (Reference, More Recipes, etc.) */
+a {
+    color: #4b2e1a;  /* Dark brown for a formal feel */
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #d4a373;  /* Elegant soft brown */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+/* Link Hover Effect */
+a:hover {
+    background-color: #b5835a;
+    color: white;
+}
+/* footer Styling (if applicable) */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}

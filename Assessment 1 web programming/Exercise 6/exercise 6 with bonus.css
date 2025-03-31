@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif; /* Use a clean and readable font */
+    text-align: center; /* Center align all text */
+    background-color: #f4f4f4; /* Light gray background for a subtle look */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding to space out content */
+}
+/* Styling for both calculator and game containers */
+.calculator, .game {
+    background: white; /* White background for a clean look */
+    padding: 20px; /* Add space inside the box */
+    margin: 20px auto; /* Center the boxes horizontally with margin */
+    width: 300px; /* Set a fixed width */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for a 3D effect */
+}
+/* Input field styling */
+input {
+    width: 100%; /* Full width to fit container */
+    padding: 8px; /* Add padding for comfortable typing */
+    margin: 10px 0; /* Space out elements */
+    border: 1px solid #ccc; /* Light gray border for a simple look */
+    border-radius: 5px; /* Rounded edges for modern design */
+}
+/* General button styling */
+button {
+    background: dodgerblue; /* Default button color */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 10px; /* Add padding for a comfortable click */
+    cursor: pointer; /* Indicate interactivity */
+    width: 100%; /* Make button full width */
+    border-radius: 5px; /* Rounded edges for smooth design */
+    transition: background 0.3s; /* Smooth transition effect */
+}
+/* Hover effect for buttons */
+button:hover {
+    background: blue; /* Darker blue when hovered */
+}
+/* Container for color selection options */
+#options {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Space between color options */
+    margin-top: 10px; /* Space above the options */
+}
+/* Individual color selection button */
+.color-option {
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    border-radius: 5px; /* Slightly rounded edges */
+    cursor: pointer; /* Indicate that it's clickable */
+    border: 2px solid transparent; /* Default no border */
+    transition: border 0.3s; /* Smooth border transition */
+}
+/* Add a black border on hover to highlight selection */
+.color-option:hover {
+    border: 2px solid black;
+}

@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Sets the background color and font for the entire webpage */
+body {
+    font-family: Arial, sans-serif; /* Uses Arial or a similar sans-serif font */
+    background-color: black; /* Sets a dark background for contrast */
+}
+/* Styles the main header section */
+header {
+    background-color: dodgerblue; /* Sets the header background to blue */
+    color: white; /* Makes the text white for contrast */
+    text-align: center; /* Centers all header content */
+    padding: 20px; /* Adds spacing inside the header */
+}
+/* Removes default bullet points from the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Displays navigation items horizontally */
+nav ul li {
+    display: inline; /* Arranges list items in a single row */
+    margin: 0 15px; /* Adds spacing between each menu item */
+}
+
+/* Styles the navigation links */
+nav ul li a {
+    color: white; /* Makes the text color white */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes the text bold */
+    padding: 10px; /* Adds padding around the link */
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth hover effect */
+    border-radius: 5px; /* Rounds the edges slightly */
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: black; /* Changes text color to black */
+    background-color: white; /* Adds a white background when hovered */
+}
+/* Uses flexbox to organize the main sections side by side */
+main {
+    display: flex; /* Enables flexible positioning of child elements */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: space-between; /* Spreads out sections evenly */
+    padding: 20px; /* Adds spacing inside the main content */
+}
+/* Styles the Study Topics section on the left */
+.study-topics {
+    width: 25%; /* Takes up 25% of the available space */
+    background: white; /* Sets a white background */
+    padding: 15px; /* Adds spacing inside the section */
+    border-radius: 5px; /* Rounds the corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+/* Styles the section title */
+.study-topics h2 {
+    text-decoration: underline; /* Underlines the heading */
+}
+/* Removes default bullet points from the list */
+.study-topics ul {
+    list-style: none;
+    padding: 0;
+}
+/* Styles each list item */
+.study-topics ul li {
+    font-size: 16px; /* Sets a readable font size */
+    margin: 10px 0; /* Adds spacing between list items */
+}
+/* Styles the Study Plan section in the center */
+.study-plan {
+    width: 45%; /* Takes up 45% of the available space */
+    background: white; /* Sets a white background */
+    padding: 15px; /* Adds spacing inside the section */
+    border-radius: 5px; /* Rounds the edges */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+/* Styles the section title */
+.study-plan h2 {
+    text-decoration: underline;
+}
+/* Styles each weekly study plan */
+.study-plan article {
+    background: #e3e3e3; /* Light gray background */
+    padding: 10px; /* Adds space inside each article */
+    margin: 10px 0; /* Adds spacing between articles */
+    border-radius: 5px; /* Rounds the corners */
+}
+
+/* Styles the article heading */
+.study-plan article h3 {
+    margin: 0; /* Removes default margin */
+}
+/* Styles the 'View Details' button */
+.study-plan button {
+    background-color: #007bff; /* Blue button background */
+    color: white; /* White text for contrast */
+    border: none; /* Removes border */
+    padding: 10px; /* Adds padding inside the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin-top: 10px; /* Adds space above the button */
+    border-radius: 3px; /* Slightly rounds the button edges */
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Smooth hover effects */
+}
+/* Hover effect for the button */
+.study-plan button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increases button size */
+}
+
+/* Styles the Resources section on the right */
+.resources {
+    width: 25%; /* Takes up 25% of the available space */
+    background: white; /* Sets a white background */
+    padding: 15px; /* Adds padding inside the section */
+    border-radius: 5px; /* Rounds the edges */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
+/* Ensures images are responsive and fit within the container */
+.resources img {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 5px; /* Rounds the edges */
+    margin-top: 10px; /* Adds spacing above the image */
+}
+
+/* Styles the footer at the bottom */
+footer {
+    background-color: dodgerblue; /* Blue background */
+    color: white; /* White text for readability */
+    text-align: center; /* Centers the text */
+    padding: 10px 0; /* Adds padding inside the footer */
+    margin-top: 20px; /* Adds space above the footer */
+}

@@ -1,0 +1,99 @@
+  /*- General Page Styling */
+  body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212; /* Dark theater ambiance */
+      color: #E0E0E0; /* Soft white for readability */
+      text-align: center;
+  }
+  /* Menu Bar Styling */
+  .menu {
+      background-color: #1C1C1C; /* Dark grey for sleek look */
+      overflow: hidden;
+      padding: 15px 0;
+      text-align: center;
+  }
+  /* Menu Links */
+  .menu a {
+      display: inline-block;
+      color: #FFD700; /* Gold for a cinematic feel */
+      text-align: center;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background-color 0.3s, color 0.3s;
+  }
+  /* Hover Effect */
+  .menu a:hover {
+      background-color: #FFD700; /* Gold */
+      color: #121212; /* Dark contrast */
+  }
+  /* Active Link */
+  .menu a.active {
+      background-color: #B8860B; /* Darker gold */
+      color: white;
+      border-radius: 5px;
+  }
+  /* Key Information Section */
+  #key-info {
+      border: 2px solid #FFD700;  /* Gold border for emphasis */
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 10px;
+      background-color: #1C1C1C; /* Dark background */
+      font-weight: bold;
+      color: white;
+  }
+  /* Sections */
+  section {
+      padding: 80px 20px;
+  }
+
+  h2 {
+      color: #FFD700;
+      font-size: 30px;
+      text-transform: uppercase;
+  }
+  /* Button Styling */
+  .button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin-top: 15px;
+      background-color: #B22222; /* Deep red for drama */
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s;
+  }
+  .button:hover {
+      background-color: #FFD700; /* Gold */
+      color: #121212;
+  }
+  /* Paragraph Styling */
+  p {
+      border: 1px solid #444;  /* Soft border */
+      padding: 15px;  /* Comfortable spacing */
+      margin: 15px 0;
+      border-radius: 8px;
+      background-color: #2C2C2C; /* Slight contrast from background */
+      color: #E0E0E0;
+  }
+  /* Links Styling */
+  a {
+      color: #FFD700;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background-color: #B22222;
+      transition: background-color 0.3s, color 0.3s;
+  }
+  a:hover {
+      background-color: #FFD700;
+      color: #121212;
+  }
